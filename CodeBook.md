@@ -49,23 +49,23 @@ The following files are available for the train and test data. Their description
 
 There are 5 parts:
 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive activity names.
-Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive activity names.
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
 
 ##How run_analysis.R implements the above steps:
 
-Tne run_analisys.R function will load the libraries: dplyr, data.table, tidyr and reshape2
-Downliad the run_analisys.R function to your Working Directory and load it into R
-The run_analisys.R function will create a libray called "data" in your WD
-The run_analisys.R function download and extract the zip file from the url and create a sub directory "UCI HAR Dataset"
-The run_analisys.R function will load the libraries: dplyr, data.table, tidyr and reshape2
-The run_analisys.R function Extracts only the measurements on the mean and standard deviation for each measurement
-The run_analisys.R function Uses descriptive activity names to name the activities in the data set
-The run_analisys.R function Appropriately labels the data set with descriptive variable names.
-The run_analisys.R function Merges the training and the test sets to create one data set
-The run_analisys.R function creates a second, independent tidy data set with the average of each variable for each activity and each subject
+1. Downliad the run_analisys.R function to your Working Directory and load it into R
+2. Tne run_analisys.R function will load the libraries: dplyr, data.table, tidyr and reshape2
+3. The run_analisys.R function will create a libray called "data" in your WD
+4. The run_analisys.R function download and extract the zip file from the url and create a sub directory "UCI HAR Dataset"
+5. The run_analisys.R function will load the libraries: dplyr, data.table, tidyr and reshape2
+6. The run_analisys.R function Extracts only the measurements on the mean and standard deviation for each measurement
+7. The run_analisys.R function Uses descriptive activity names to name the activities in the data set
+8. The run_analisys.R function Appropriately labels the data set with descriptive variable names.
+9. The run_analisys.R function Merges the training and the test sets to create one data set
+10. The run_analisys.R function creates a second, independent tidy data set with the average of each variable for each activity and each subject
