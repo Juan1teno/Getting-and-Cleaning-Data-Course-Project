@@ -21,4 +21,5 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## Considerations
 Tne run_analisys.R function will load the libraries: dplyr, data.table, tidyr and reshape2
+
 Downliad the run_analisys.R function to your Working Directory and load it into R
