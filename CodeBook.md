@@ -57,7 +57,7 @@ There are 5 parts:
 
 
 
-##How run_analysis.R implements the above steps:
+##How to run_analysis.R and implement the above steps:
 
 1. Downliad the run_analisys.R function to your Working Directory and load it into R
 2. Tne run_analisys.R function will load the libraries: dplyr, data.table, tidyr and reshape2
